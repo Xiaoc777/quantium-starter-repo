@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #f6f9fc, #e9f2ff);
+}
+
+.page {
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.card {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    padding: 30px;
+}
+
+.main-title {
+    text-align: center;
+    color: #1f3c88;
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.filter-section {
+    background: #f7faff;
+    border: 1px solid #dce8ff;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.filter-label {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1f3c88;
+    margin-bottom: 12px;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.radio-label {
+    margin-right: 12px;
+    font-size: 16px;
+    color: #333;
+}
+
+.graph {
+    border-radius: 16px;
+    overflow: hidden;
+}
